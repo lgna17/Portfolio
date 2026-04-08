@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de Ignacio Bustos, técnico informático especializado en soporte, redes y administración de sistemas Linux/Windows.">
   <title>Ignacio Bustos | Técnico Informático</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -13,11 +14,11 @@
         <span class="brand-label">Ignacio Bustos</span>
         <small>Técnico Informático</small>
       </div>
-      <nav class="top-nav">
+      <nav class="top-nav" aria-label="Navegación principal">
+        <a href="#home">Inicio</a>
         <a href="#about">Sobre mí</a>
         <a href="#skills">Habilidades</a>
         <a href="#projects">Proyectos</a>
-        <a href="#experience">Experiencia</a>
         <a href="#contact">Contacto</a>
       </nav>
     </div>
@@ -27,25 +28,25 @@
     <section class="hero" id="home">
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <p class="eyebrow">Junior IT Support & Networking</p>
-          <h1>Soporte técnico y administración de sistemas confiable</h1>
-          <p class="hero-text">Experiencia práctica en Linux y Windows, redes TCP/IP y resolución de incidencias. Mi objetivo es mantener infraestructuras estables y usuarios productivos.</p>
+          <p class="eyebrow">Técnico de soporte y redes</p>
+          <h1>Soporte TI confiable para entornos Linux y Windows</h1>
+          <p class="hero-text">Mantengo infraestructura estable y resuelvo incidentes con rapidez. Mi enfoque combina operaciones de sistemas, redes y atención técnica clara para equipos confiables.</p>
           <div class="hero-actions">
             <a href="#contact" class="button button-primary">Contactar</a>
-            <a href="#projects" class="button button-secondary">Ver Proyectos</a>
+            <a href="#projects" class="button button-secondary">Ver proyectos</a>
           </div>
         </div>
-        <div class="hero-card reveal">
+        <aside class="hero-card reveal">
           <div class="profile-card">
-            <p class="profile-role">Perfil técnico</p>
-            <p>Especialista en soporte IT, administración de sistemas y redes.</p>
+            <p class="profile-role">Perfil profesional</p>
+            <p>Junior IT Support con experiencia práctica en administración de sistemas y diagnóstico de redes en entornos mixtos.</p>
             <ul class="profile-list">
-              <li>Resolución de incidencias</li>
-              <li>Instalación y mantenimiento</li>
-              <li>Soporte remoto y presencial</li>
+              <li>Soporte Windows / Linux</li>
+              <li>Diagnóstico TCP/IP y conectividad</li>
+              <li>Automatización de tareas y backups</li>
             </ul>
           </div>
-        </div>
+        </aside>
       </div>
     </section>
 
@@ -55,8 +56,8 @@
           <span class="section-label">Acerca</span>
           <h2>Sobre mí</h2>
         </div>
-        <p>Soy un técnico informático orientado a resultados, con foco en soporte, redes y administración de sistemas. Trabajo con un enfoque metódico para solucionar problemas, optimizar entornos y garantizar que los equipos y servidores funcionen sin interrupciones.</p>
-        <p>Me destaco por mi capacidad para aprender rápidamente nuevas herramientas, documentar procesos y mantener comunicaciones claras con usuarios y responsables técnicos.</p>
+        <p>Soy técnico informático enfocado en soporte, redes y administración de sistemas. Resuelvo incidentes rápidamente, mantengo infraestructuras operativas y acerco la tecnología a los usuarios con procesos claros.</p>
+        <p>Me especializo en documentación, mejores prácticas y mejoras continuas para que los equipos de trabajo puedan avanzar sin interrupciones.</p>
       </div>
     </section>
 
@@ -64,25 +65,45 @@
       <div class="container">
         <div class="section-header">
           <span class="section-label">Habilidades</span>
-          <h2>Competencias clave</h2>
+          <h2>Competencias técnicas</h2>
         </div>
         <div class="skills-grid">
-          <div class="skill-card">
+          <article class="skill-card">
             <h3>Sistemas</h3>
-            <p>Linux, Windows, instalación de software, administración de usuarios, scripting básico y mantenimiento preventivo.</p>
-          </div>
-          <div class="skill-card">
+            <ul>
+              <li>Linux (Ubuntu, Debian)</li>
+              <li>Windows 10 / 11</li>
+              <li>Administración de usuarios</li>
+              <li>Mantenimiento y parches</li>
+            </ul>
+          </article>
+          <article class="skill-card">
             <h3>Redes</h3>
-            <p>Configuración de redes LAN/WAN, TCP/IP, DHCP, DNS, cableado, diagnóstico de conectividad y monitoreo.</p>
-          </div>
-          <div class="skill-card">
+            <ul>
+              <li>TCP/IP, DHCP, DNS</li>
+              <li>Diagnóstico de conectividad</li>
+              <li>VLAN y segmentación</li>
+              <li>Monitoreo de tráfico</li>
+            </ul>
+          </article>
+          <article class="skill-card">
             <h3>Soporte</h3>
-            <p>Resolución de incidencias, atención al usuario, soporte remoto, backups y recuperación de datos.</p>
-          </div>
-          <div class="skill-card">
+            <ul>
+              <li>Atención a usuarios</li>
+              <li>Incidentes de hardware / software</li>
+              <li>Soporte remoto y presencial</li>
+              <li>Recuperación de datos</li>
+            </ul>
+          </article>
+          <article class="skill-card">
             <h3>Herramientas</h3>
-            <p>Wireshark, PuTTY, VirtualBox, Ansible básico, Office 365, herramientas de ticketing y monitoreo.</p>
-          </div>
+            <ul>
+              <li>Wireshark, PuTTY, VirtualBox</li>
+              <li>Office 365</li>
+              <li>Ticketing y monitoreo</li>
+              <li>Bash, rsync y cron</li>
+            </ul>
+          </article>
         </div>
       </div>
     </section>
@@ -91,23 +112,23 @@
       <div class="container">
         <div class="section-header">
           <span class="section-label">Proyectos</span>
-          <h2>Ejemplos prácticos</h2>
+          <h2>Trabajo relevante</h2>
         </div>
         <div class="project-grid">
           <article class="project-card">
-            <h3>Automatización de respaldos</h3>
-            <p>Implementé un proceso de respaldos automatizados en Linux para una pequeña empresa, garantizando copias diarias y recuperación rápida en caso de fallo.</p>
-            <p class="project-tech">Tecnologías: Bash, rsync, cron, almacenamiento NAS</p>
+            <h3>Respaldo automatizado en Linux</h3>
+            <p>Implementé un sistema de copias automáticas con Bash, rsync y cron. La solución mantiene versiones accesibles y reduce el riesgo de pérdida de datos.</p>
+            <p class="project-tech">Tecnologías: Bash, rsync, cron, NAS</p>
           </article>
           <article class="project-card">
-            <h3>Diagnóstico de red</h3>
-            <p>Realicé análisis de conectividad y optimización de red en una oficina, solucionando problemas de latencia y segmentando tráfico crítico.</p>
-            <p class="project-tech">Tecnologías: Wireshark, TCP/IP, VLAN, routers Cisco</p>
+            <h3>Optimización de red de oficina</h3>
+            <p>Diagnostiqué y corregí problemas de latencia en la red local, mejorando la estabilidad y el rendimiento de las conexiones críticas.</p>
+            <p class="project-tech">Tecnologías: Wireshark, TCP/IP, VLAN, routers</p>
           </article>
           <article class="project-card">
-            <h3>Soporte IT para clientes</h3>
-            <p>Brindé soporte técnico a usuarios, resolviendo incidencias de hardware y software, e instalando equipos con configuración estándar.</p>
-            <p class="project-tech">Tecnologías: Windows 10/11, Active Directory, Office 365, herramientas remotas</p>
+            <h3>Soporte técnico para usuarios</h3>
+            <p>Atendí incidencias de hardware y software, gestioné configuraciones estándar y documenté procedimientos para facilitar futuras intervenciones.</p>
+            <p class="project-tech">Tecnologías: Windows, Active Directory, Office 365</p>
           </article>
         </div>
       </div>
@@ -117,18 +138,18 @@
       <div class="container">
         <div class="section-header">
           <span class="section-label">Experiencia</span>
-          <h2>Trayectoria</h2>
+          <h2>Trayectoria independiente</h2>
         </div>
-        <div class="experience-card">
-          <h3>Servicio independiente de soporte IT</h3>
+        <article class="experience-card">
+          <h3>Soporte IT independiente</h3>
           <span class="experience-meta">2024 - Presente</span>
           <ul>
-            <li>Soporte técnico a usuarios finales, instalación de equipos y configuración de redes.</li>
-            <li>Administración de entornos Windows y Linux, incluyendo actualizaciones y parches.</li>
-            <li>Gestión de copias de seguridad, mantenimiento preventivo y resolución de incidencias de conectividad.</li>
-            <li>Documentación de procedimientos y comunicación directa con clientes para mejorar la eficiencia.</li>
+            <li>Resolución de incidencias de hardware y software para clientes locales.</li>
+            <li>Administración de sistemas Windows y Linux, configuraciones y parches.</li>
+            <li>Gestión de redes y conectividad con diagnósticos claros.</li>
+            <li>Documentación de tareas y mejoras para continuidad operativa.</li>
           </ul>
-        </div>
+        </article>
       </div>
     </section>
 
@@ -137,23 +158,23 @@
         <div>
           <div class="section-header">
             <span class="section-label">Contacto</span>
-            <h2>Hablemos</h2>
+            <h2>Contacta conmigo</h2>
           </div>
-          <p>Estoy disponible para roles de soporte técnico, redes y administración de sistemas. Contacta por correo o LinkedIn para conversar sobre oportunidades.</p>
+          <p>Busco roles de soporte técnico, redes y administración de sistemas. Escríbeme para coordinar una entrevista o proponer un proyecto.</p>
           <p>Email: <a href="mailto:nachobustos100@gmail.com">nachobustos100@gmail.com</a></p>
           <p>LinkedIn: <a href="https://www.linkedin.com/in/ignacio-bustos" target="_blank" rel="noopener">linkedin.com/in/ignacio-bustos</a></p>
         </div>
-        <div class="contact-card">
-          <p class="contact-note">¿Necesitas un perfil confiable para soporte IT y redes? Envíame un mensaje por LinkedIn o correo para coordinar.</p>
+        <aside class="contact-card">
+          <p class="contact-note">Estoy disponible para apoyar a equipos TI con soporte confiable, monitoreo y ajustes de infraestructura.</p>
           <a href="mailto:nachobustos100@gmail.com" class="button button-primary">Enviar correo</a>
-        </div>
+        </aside>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>&copy; 2026 Ignacio Bustos. Perfil profesional de IT Support y Networking.</p>
+      <p>&copy; 2026 Ignacio Bustos — Técnico de soporte y redes.</p>
     </div>
   </footer>
 
@@ -165,11 +186,9 @@
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.12 });
+    }, { threshold: 0.15 });
 
-    document.querySelectorAll('.reveal').forEach(element => {
-      observer.observe(element);
-    });
+    document.querySelectorAll('.reveal').forEach(element => observer.observe(element));
   </script>
 </body>
 </html>
